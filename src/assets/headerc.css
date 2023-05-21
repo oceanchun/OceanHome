@@ -1,0 +1,67 @@
+.demo-type {
+  margin-top: -10px;
+}
+
+.hleft {
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+/* div3 */
+.rowc {
+  margin-left: auto;
+  /* position: relative; */
+  margin-right: 30px;
+  /* overflow: hidden; */
+}
+.icon {
+  /* transition: all 0.5s; */
+
+}
+.icon:hover{
+  /* transform: scale(1.2); */
+
+}
+
+.el-row {
+  margin-bottom: 20px;
+}
+
+.el-row:last-child {
+  margin-bottom: 0;
+}
+
+.el-col {
+  border-radius: 4px;
+}
+
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
+}
+
+.rowcc {
+  position: relative;
+}
+
+.wechat-show img {
+  width: 200px;
+  height: 200px;
+}
+
+.wechat-show {
+  position: absolute;
+  left: -55%;
+  bottom: -500px;
+  transform: translateX(-50%);
+  opacity: 0;
+  /* display: none; */
+  height: 28px;
+}
+
+.rowcc:hover .wechat-show {
+  opacity: 1;
+  /* display: block; */
+  bottom: 0px;
+  z-index: 999;
+}

@@ -1,0 +1,12 @@
+.mainc{
+    overflow: hidden;
+}
+
+.el-main {
+    --el-main-padding: 20px;
+    display: block;
+    flex: 1;
+    flex-basis: auto;
+    padding: var(--el-main-padding);
+    overflow: hidden;
+}

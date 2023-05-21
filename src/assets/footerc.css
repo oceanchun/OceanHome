@@ -1,0 +1,25 @@
+.footerc {
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.footerc a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    margin-top: -10px !important;
+}
+
+.el-footer {
+    --el-footer-padding: 0px !important;
+}
+
+img  {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+}
